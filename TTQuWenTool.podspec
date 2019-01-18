@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 存放基础工具类组件
+DESC
 
   s.homepage         = 'https://github.com/zhouXiaoR/TTQuWenTool'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
