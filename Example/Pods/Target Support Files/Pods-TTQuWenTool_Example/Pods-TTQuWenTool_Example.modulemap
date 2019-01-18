@@ -1,0 +1,6 @@
+framework module Pods_TTQuWenTool_Example {
+  umbrella header "Pods-TTQuWenTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

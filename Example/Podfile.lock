@@ -1,0 +1,16 @@
+PODS:
+  - TTQuWenTool (0.1.0)
+
+DEPENDENCIES:
+  - TTQuWenTool (from `../`)
+
+EXTERNAL SOURCES:
+  TTQuWenTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTQuWenTool: 0965214223fbe04711788c924cb4c00ba2972479
+
+PODFILE CHECKSUM: b1eae7b2bb016cc13b6f692b597c5fb8e13dc94b
+
+COCOAPODS: 1.5.3

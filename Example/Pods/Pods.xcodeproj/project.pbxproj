@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0168102BF2605963DC5F2B95A0C0DB9B /* TTQuWenTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D35E8393868B8E454267C0EAF79A8861 /* TTQuWenTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		093C00AE68786355EB4CDD4C9691807B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3719A7B3D592DB176921194AC82C7DC6 /* TTQuWenTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4E0E166A815339CE229B99A3BA6D89 /* TTQuWenTool-dummy.m */; };
+		63FB7D47BF9F0DBBBCA2785997658B0F /* Pods-TTQuWenTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2331C2F7AD0F019B93C7FC8A199C4159 /* Pods-TTQuWenTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7044AD50FBAC14EBC978ABD07D58D6DA /* Pods-TTQuWenTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430C2F951A1DA37A8D4D0B353E4C6B16 /* Pods-TTQuWenTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE66CFE9CC7EC82BD7DF3ADBE2A1567 /* TTQCaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6FA390079018EE8D17BCC9FF9DD864 /* TTQCaculator.m */; };
+		B9D97CE8FDD1C3B6C30C3C5664D82F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C1F0600FA31837249F998095B4F787ED /* Pods-TTQuWenTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B84262AF552968C042F45B1998E629F1 /* Pods-TTQuWenTool_Example-dummy.m */; };
+		D08319CB66ACEB13AD97ADAE2993BD2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DC37E9D5A395FAEFE381D40323CAFAA5 /* Pods-TTQuWenTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F67C56CD89708ED85D2411BC11342E6C /* Pods-TTQuWenTool_Tests-dummy.m */; };
+		E4971877003562026EA52C9F20671FBA /* TTQCaculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4806346C9F881EB5C7B7A749D908E2DD /* TTQCaculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD78D883631469EDDABE57791D75C400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C5B4BF0D67D82FAB910CAD8B640FAE4;
+			remoteInfo = TTQuWenTool;
+		};
+		F6B805F0DCF20E3BCCE70F85F18239B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE196376E9BCFA273A874F046997943;
+			remoteInfo = "Pods-TTQuWenTool_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2331C2F7AD0F019B93C7FC8A199C4159 /* Pods-TTQuWenTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTQuWenTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		241D5D98CECBA35F4B8227A44B2D0306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F4E0E166A815339CE229B99A3BA6D89 /* TTQuWenTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTQuWenTool-dummy.m"; sourceTree = "<group>"; };
+		3FBD195C8A677AE4D2C6F51D722E7746 /* Pods-TTQuWenTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTQuWenTool_Tests.modulemap"; sourceTree = "<group>"; };
+		430C2F951A1DA37A8D4D0B353E4C6B16 /* Pods-TTQuWenTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTQuWenTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		4806346C9F881EB5C7B7A749D908E2DD /* TTQCaculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTQCaculator.h; path = TTQuWenTool/Classes/BaseShopCaculator/TTQCaculator.h; sourceTree = "<group>"; };
+		4FFCB00A4BB9321171096A20F478D80A /* Pods-TTQuWenTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTQuWenTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DC3C43D9F62CB7FB59E187572C610AE /* Pods-TTQuWenTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTQuWenTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		600B24886002766E190566ECB7C67271 /* TTQuWenTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TTQuWenTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62F7D409997CACCE142175B9DC3CE621 /* Pods_TTQuWenTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTQuWenTool_Example.framework; path = "Pods-TTQuWenTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6740E55B8A6861B950F83028B07B93A9 /* Pods-TTQuWenTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTQuWenTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		701420C2ECC7351A7B803752D364BEE3 /* Pods-TTQuWenTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTQuWenTool_Example.modulemap"; sourceTree = "<group>"; };
+		7260E12FB3A357D57BCFF6651C9CA765 /* Pods-TTQuWenTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTQuWenTool_Tests-resources.sh"; sourceTree = "<group>"; };
+		766A128C21A60384AC36BFFA5CC13036 /* Pods-TTQuWenTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTQuWenTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C15FA93BE02A8F5EDD4BEA191F994FA /* Pods-TTQuWenTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTQuWenTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FFF4EB38A10FC924DC656CCB5F032F5 /* Pods-TTQuWenTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTQuWenTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84662F008D42923416929F6315D9E4E9 /* TTQuWenTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTQuWenTool-prefix.pch"; sourceTree = "<group>"; };
+		8789D9C261D65ED39CFA1E3F3F05C25E /* TTQuWenTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTQuWenTool.modulemap; sourceTree = "<group>"; };
+		880FB0DBFF380050E3A7544A48C14D12 /* TTQuWenTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTQuWenTool.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A01423AA59B4FEC720BF44385A593A0 /* Pods-TTQuWenTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTQuWenTool_Example-resources.sh"; sourceTree = "<group>"; };
+		9A74C38560B2F3F727DCB580E1134A52 /* Pods_TTQuWenTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTQuWenTool_Tests.framework; path = "Pods-TTQuWenTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51D3769E30BD1FB6720B572639A99F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B760B30B41691EC5C5B531933C1C995C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84262AF552968C042F45B1998E629F1 /* Pods-TTQuWenTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTQuWenTool_Example-dummy.m"; sourceTree = "<group>"; };
+		B8CB468705F9F4D6208DE76CA5CF245C /* Pods-TTQuWenTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTQuWenTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA7510326B71D1D80F88C56954ED7987 /* Pods-TTQuWenTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTQuWenTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C273EC4F5B97F50BB574A709F8931D8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC1D7BB15D30479ACAA0BB41F5FC228 /* Pods-TTQuWenTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTQuWenTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEFAD18CDD5FBE01C89C20535271F5AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D35E8393868B8E454267C0EAF79A8861 /* TTQuWenTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTQuWenTool-umbrella.h"; sourceTree = "<group>"; };
+		DC6FA390079018EE8D17BCC9FF9DD864 /* TTQCaculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTQCaculator.m; path = TTQuWenTool/Classes/BaseShopCaculator/TTQCaculator.m; sourceTree = "<group>"; };
+		F046EDC7872C4027C08AD6A4D4493D82 /* Pods-TTQuWenTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTQuWenTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F67C56CD89708ED85D2411BC11342E6C /* Pods-TTQuWenTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTQuWenTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		F7F4E99B8014173F456C8B0B3205B40A /* TTQuWenTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTQuWenTool.framework; path = TTQuWenTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DCB0F97ACAEA61B8D58A02B1A4F5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D97CE8FDD1C3B6C30C3C5664D82F92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C40023FD280AE490F0D41D3CFF911D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093C00AE68786355EB4CDD4C9691807B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41CB5C419692420380AFCFBC08E715B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08319CB66ACEB13AD97ADAE2993BD2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143ABC279754F747FBCCD48F73F695A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAD18CDD5FBE01C89C20535271F5AB /* LICENSE */,
+				241D5D98CECBA35F4B8227A44B2D0306 /* README.md */,
+				600B24886002766E190566ECB7C67271 /* TTQuWenTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6C9BE276D7074E481AA2DE8720AB030C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B760B30B41691EC5C5B531933C1C995C /* Info.plist */,
+				8789D9C261D65ED39CFA1E3F3F05C25E /* TTQuWenTool.modulemap */,
+				880FB0DBFF380050E3A7544A48C14D12 /* TTQuWenTool.xcconfig */,
+				2F4E0E166A815339CE229B99A3BA6D89 /* TTQuWenTool-dummy.m */,
+				84662F008D42923416929F6315D9E4E9 /* TTQuWenTool-prefix.pch */,
+				D35E8393868B8E454267C0EAF79A8861 /* TTQuWenTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTQuWenTool";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CEABD8CEBB3B17C6B39AD8303ADFE654 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D40823F90343FAD23BA37E5EFDF0659E /* Products */,
+				FF99FC53AB011BA3B5B7E83B317154D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95E9EEB0B6D3A7CB34F35B096E5DFC00 /* Pods-TTQuWenTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C273EC4F5B97F50BB574A709F8931D8E /* Info.plist */,
+				701420C2ECC7351A7B803752D364BEE3 /* Pods-TTQuWenTool_Example.modulemap */,
+				7C15FA93BE02A8F5EDD4BEA191F994FA /* Pods-TTQuWenTool_Example-acknowledgements.markdown */,
+				BA7510326B71D1D80F88C56954ED7987 /* Pods-TTQuWenTool_Example-acknowledgements.plist */,
+				B84262AF552968C042F45B1998E629F1 /* Pods-TTQuWenTool_Example-dummy.m */,
+				5DC3C43D9F62CB7FB59E187572C610AE /* Pods-TTQuWenTool_Example-frameworks.sh */,
+				9A01423AA59B4FEC720BF44385A593A0 /* Pods-TTQuWenTool_Example-resources.sh */,
+				430C2F951A1DA37A8D4D0B353E4C6B16 /* Pods-TTQuWenTool_Example-umbrella.h */,
+				7FFF4EB38A10FC924DC656CCB5F032F5 /* Pods-TTQuWenTool_Example.debug.xcconfig */,
+				F046EDC7872C4027C08AD6A4D4493D82 /* Pods-TTQuWenTool_Example.release.xcconfig */,
+			);
+			name = "Pods-TTQuWenTool_Example";
+			path = "Target Support Files/Pods-TTQuWenTool_Example";
+			sourceTree = "<group>";
+		};
+		9D4A26C20853D559CA34A47A99C65A37 /* TTQuWenTool */ = {
+			isa = PBXGroup;
+			children = (
+				4806346C9F881EB5C7B7A749D908E2DD /* TTQCaculator.h */,
+				DC6FA390079018EE8D17BCC9FF9DD864 /* TTQCaculator.m */,
+				143ABC279754F747FBCCD48F73F695A5 /* Pod */,
+				6C9BE276D7074E481AA2DE8720AB030C /* Support Files */,
+			);
+			name = TTQuWenTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4CE7F11B01993787CA878FF137055BD /* Pods-TTQuWenTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A51D3769E30BD1FB6720B572639A99F6 /* Info.plist */,
+				3FBD195C8A677AE4D2C6F51D722E7746 /* Pods-TTQuWenTool_Tests.modulemap */,
+				4FFCB00A4BB9321171096A20F478D80A /* Pods-TTQuWenTool_Tests-acknowledgements.markdown */,
+				766A128C21A60384AC36BFFA5CC13036 /* Pods-TTQuWenTool_Tests-acknowledgements.plist */,
+				F67C56CD89708ED85D2411BC11342E6C /* Pods-TTQuWenTool_Tests-dummy.m */,
+				6740E55B8A6861B950F83028B07B93A9 /* Pods-TTQuWenTool_Tests-frameworks.sh */,
+				7260E12FB3A357D57BCFF6651C9CA765 /* Pods-TTQuWenTool_Tests-resources.sh */,
+				2331C2F7AD0F019B93C7FC8A199C4159 /* Pods-TTQuWenTool_Tests-umbrella.h */,
+				CBC1D7BB15D30479ACAA0BB41F5FC228 /* Pods-TTQuWenTool_Tests.debug.xcconfig */,
+				B8CB468705F9F4D6208DE76CA5CF245C /* Pods-TTQuWenTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTQuWenTool_Tests";
+			path = "Target Support Files/Pods-TTQuWenTool_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEABD8CEBB3B17C6B39AD8303ADFE654 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D4A26C20853D559CA34A47A99C65A37 /* TTQuWenTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D40823F90343FAD23BA37E5EFDF0659E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F7D409997CACCE142175B9DC3CE621 /* Pods_TTQuWenTool_Example.framework */,
+				9A74C38560B2F3F727DCB580E1134A52 /* Pods_TTQuWenTool_Tests.framework */,
+				F7F4E99B8014173F456C8B0B3205B40A /* TTQuWenTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF99FC53AB011BA3B5B7E83B317154D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95E9EEB0B6D3A7CB34F35B096E5DFC00 /* Pods-TTQuWenTool_Example */,
+				B4CE7F11B01993787CA878FF137055BD /* Pods-TTQuWenTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25D333AE5610CD559B516F98BC4D6832 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4971877003562026EA52C9F20671FBA /* TTQCaculator.h in Headers */,
+				0168102BF2605963DC5F2B95A0C0DB9B /* TTQuWenTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3735568BEC161B4CCE60C990665DB803 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7044AD50FBAC14EBC978ABD07D58D6DA /* Pods-TTQuWenTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F29E2419E643B9BE0FB938D0F0035D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FB7D47BF9F0DBBBCA2785997658B0F /* Pods-TTQuWenTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52B1DCB278B05BAD9B04383F93A91ECE /* Pods-TTQuWenTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEB93B52B76CF3082CAD7EFBB93B21A /* Build configuration list for PBXNativeTarget "Pods-TTQuWenTool_Tests" */;
+			buildPhases = (
+				6BC138E474490419F3497126A64353AC /* Sources */,
+				80C40023FD280AE490F0D41D3CFF911D /* Frameworks */,
+				57F29E2419E643B9BE0FB938D0F0035D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE843190F9B32E8A8B65518B58D9B7D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTQuWenTool_Tests";
+			productName = "Pods-TTQuWenTool_Tests";
+			productReference = 9A74C38560B2F3F727DCB580E1134A52 /* Pods_TTQuWenTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C5B4BF0D67D82FAB910CAD8B640FAE4 /* TTQuWenTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F13323DB0A00572459EAFBC46B0D637 /* Build configuration list for PBXNativeTarget "TTQuWenTool" */;
+			buildPhases = (
+				D5433284366960FECAA266BE331A4871 /* Sources */,
+				69DCB0F97ACAEA61B8D58A02B1A4F5E1 /* Frameworks */,
+				25D333AE5610CD559B516F98BC4D6832 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTQuWenTool;
+			productName = TTQuWenTool;
+			productReference = F7F4E99B8014173F456C8B0B3205B40A /* TTQuWenTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EE196376E9BCFA273A874F046997943 /* Pods-TTQuWenTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C14E6A4F0851F75C9AF250514A7B1A4 /* Build configuration list for PBXNativeTarget "Pods-TTQuWenTool_Example" */;
+			buildPhases = (
+				2EA1317E7F3494685A3CBA6FA5C8C4C0 /* Sources */,
+				D41CB5C419692420380AFCFBC08E715B /* Frameworks */,
+				3735568BEC161B4CCE60C990665DB803 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C1719F2B7A4902A69DE29191FFA0F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTQuWenTool_Example";
+			productName = "Pods-TTQuWenTool_Example";
+			productReference = 62F7D409997CACCE142175B9DC3CE621 /* Pods_TTQuWenTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D40823F90343FAD23BA37E5EFDF0659E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE196376E9BCFA273A874F046997943 /* Pods-TTQuWenTool_Example */,
+				52B1DCB278B05BAD9B04383F93A91ECE /* Pods-TTQuWenTool_Tests */,
+				7C5B4BF0D67D82FAB910CAD8B640FAE4 /* TTQuWenTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA1317E7F3494685A3CBA6FA5C8C4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0600FA31837249F998095B4F787ED /* Pods-TTQuWenTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC138E474490419F3497126A64353AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC37E9D5A395FAEFE381D40323CAFAA5 /* Pods-TTQuWenTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5433284366960FECAA266BE331A4871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE66CFE9CC7EC82BD7DF3ADBE2A1567 /* TTQCaculator.m in Sources */,
+				3719A7B3D592DB176921194AC82C7DC6 /* TTQuWenTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C1719F2B7A4902A69DE29191FFA0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTQuWenTool;
+			target = 7C5B4BF0D67D82FAB910CAD8B640FAE4 /* TTQuWenTool */;
+			targetProxy = AD78D883631469EDDABE57791D75C400 /* PBXContainerItemProxy */;
+		};
+		EE843190F9B32E8A8B65518B58D9B7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTQuWenTool_Example";
+			target = 8EE196376E9BCFA273A874F046997943 /* Pods-TTQuWenTool_Example */;
+			targetProxy = F6B805F0DCF20E3BCCE70F85F18239B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AEEB29D219AEF571FFFD02F0805C895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CB468705F9F4D6208DE76CA5CF245C /* Pods-TTQuWenTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTQuWenTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTQuWenTool_Tests/Pods-TTQuWenTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2033E129A9854C75563660AA898EEEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880FB0DBFF380050E3A7544A48C14D12 /* TTQuWenTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTQuWenTool/TTQuWenTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTQuWenTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTQuWenTool/TTQuWenTool.modulemap";
+				PRODUCT_MODULE_NAME = TTQuWenTool;
+				PRODUCT_NAME = TTQuWenTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		218070957B5B2B72611AF6DEB1C2455D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC1D7BB15D30479ACAA0BB41F5FC228 /* Pods-TTQuWenTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTQuWenTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTQuWenTool_Tests/Pods-TTQuWenTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43D1BC82D5A41440BCFD9E58AD9011BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFF4EB38A10FC924DC656CCB5F032F5 /* Pods-TTQuWenTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTQuWenTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTQuWenTool_Example/Pods-TTQuWenTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7436A3A46471349B1601A5B319D8FBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F046EDC7872C4027C08AD6A4D4493D82 /* Pods-TTQuWenTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTQuWenTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTQuWenTool_Example/Pods-TTQuWenTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A26E8447EDBD1A56317B97CF1E12964A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880FB0DBFF380050E3A7544A48C14D12 /* TTQuWenTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTQuWenTool/TTQuWenTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTQuWenTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTQuWenTool/TTQuWenTool.modulemap";
+				PRODUCT_MODULE_NAME = TTQuWenTool;
+				PRODUCT_NAME = TTQuWenTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F13323DB0A00572459EAFBC46B0D637 /* Build configuration list for PBXNativeTarget "TTQuWenTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26E8447EDBD1A56317B97CF1E12964A /* Debug */,
+				2033E129A9854C75563660AA898EEEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEB93B52B76CF3082CAD7EFBB93B21A /* Build configuration list for PBXNativeTarget "Pods-TTQuWenTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218070957B5B2B72611AF6DEB1C2455D /* Debug */,
+				0AEEB29D219AEF571FFFD02F0805C895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C14E6A4F0851F75C9AF250514A7B1A4 /* Build configuration list for PBXNativeTarget "Pods-TTQuWenTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D1BC82D5A41440BCFD9E58AD9011BD /* Debug */,
+				7436A3A46471349B1601A5B319D8FBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
